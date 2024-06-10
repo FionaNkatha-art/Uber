@@ -1,0 +1,25 @@
+form{
+    background-color: orangered;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+.first{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+label{
+    width: 25%;
+    margin-right: 5px;
+}
+input[type=text],input[email],input[date],input[file],textarea{
+    width: 60%;
+    height: 40px;
+}
+fieldset{
+    border: 2px solid black;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=date]:focus,input[type=file]:focus{
+    background-color: #0b57d0;
+}

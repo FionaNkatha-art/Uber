@@ -1,0 +1,12 @@
+h4{
+    color: orangered;
+}
+#restaurant,#catering,#location,#pic{
+    margin-left: 100px;
+}
+hr{
+    margin-right: 80px;
+}
+body{
+    background-color: antiquewhite;
+}

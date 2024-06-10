@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form action="">
+
+    <legend>Personal Details</legend>
+    <br>
+    <label for="fname">Firstname:</label>
+    <input type="text" id="fname" placeholder="Enter firstname" required="required"><br><br>
+
+    <label for="mname">Middlename:</label>
+    <input type="text" id="mname" placeholder="Enter middlename" required="required"><br><br>
+
+    <label for="sname">Surname</label>
+    <input type="text" id="sname" placeholder="Enter surname" required="required"><br><br>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required"><br><br>
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" placeholder="password" required="required"><br><br>
+
+    <p>Choose your favorite football team:</p>
+    <input type="radio" id="Arsenal">
+    <label for="Arsenal">Arsenal</label><br>
+
+    <input type="radio" id="mancity">
+    <label for="mancity">Mancity</label><br>
+
+    <input type="radio" id="chelsea">
+    <label for="chelsea">Chelsea</label><br><br>
+
+    <p>Choose a programming language:</p>
+    <input type="checkbox" id="python">
+    <label for="python">Python</label><br>
+
+    <input type="checkbox" id="js">
+    <label for="js">JavaScript</label><br>
+
+    <input type="checkbox" id="kotlin">
+    <label for="kotlin">Kotlin</label><br>
+
+    <label for="nationality">Nationality</label>
+    <select name="" id="nationality">
+                <option value="choose" disabled="disabled">---choose---</option>
+        <option value="kenyan">Kenyan</option>
+        <option value="American">American</option>
+        <option value="italy">Italian</option>
+    </select>
+    <br><br>
+
+    <label for="person">Describe yourself here:</label><br>
+    <textarea name="" id="person" cols="50" rows="5" placeholder="Type something..."></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+</body>
+</html>

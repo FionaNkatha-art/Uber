@@ -1,0 +1,14 @@
+div{
+    display: flex;
+}
+p{
+    padding-left: 10px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
